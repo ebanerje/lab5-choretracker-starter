@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-04T13:48:49-05:00">2021-02-04T13:48:49-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-05T16:54:42-05:00">2021-02-05T16:54:42-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -73,7 +73,7 @@
       <tr>
         <td class="strong"><a href="#f43ff63df18ad811ea2ab419a49ffe61359f9fb7" class="src_link" title="app/controllers/chores_controller.rb">app/controllers/chores_controller.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>74</td>
+        <td>75</td>
         <td>50</td>
         <td>0</td>
         <td>50</td>
@@ -231,7 +231,7 @@
       <tr>
         <td class="strong"><a href="#f43ff63df18ad811ea2ab419a49ffe61359f9fb7" class="src_link" title="app/controllers/chores_controller.rb">app/controllers/chores_controller.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>74</td>
+        <td>75</td>
         <td>50</td>
         <td>0</td>
         <td>50</td>
@@ -630,7 +630,7 @@
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    @children = Child.all</code>
+          <code class="ruby">    @children = Child.alphabetical.all</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
@@ -1090,409 +1090,415 @@
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="7">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby">    @chores = Chore.all</code>
+          <code class="ruby">    #@chores = Chore.all</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    @chores = Chore.chronological.by_task.all</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="missed" data-hits="0" data-linenumber="9">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">  # GET /chores/1</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
           
           
-          <code class="ruby">  # GET /chores/1.json</code>
+          <code class="ruby">  # GET /chores/1</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">  def show</code>
+          <code class="ruby">  # GET /chores/1.json</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">  def show</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="14">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">  # GET /chores/new</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="16">
+        <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby">  def new</code>
+          <code class="ruby">  # GET /chores/new</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="17">
           
           
-          <code class="ruby">    @chore = Chore.new</code>
+          <code class="ruby">  def new</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="18">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    @chore = Chore.new</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="missed" data-hits="0" data-linenumber="19">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">  # GET /chores/1/edit</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="21">
           
           
-          <code class="ruby">  def edit</code>
+          <code class="ruby">  # GET /chores/1/edit</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="22">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">  def edit</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="missed" data-hits="0" data-linenumber="23">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">  # POST /chores</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
           
           
-          <code class="ruby">  # POST /chores.json</code>
+          <code class="ruby">  # POST /chores</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="26">
+        <li class="never" data-hits="" data-linenumber="26">
           
           
-          <code class="ruby">  def create</code>
+          <code class="ruby">  # POST /chores.json</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="27">
           
           
+          <code class="ruby">  def create</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="28">
+          
+          
           <code class="ruby">    @chore = Chore.new(chore_params)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="28">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby"></code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="29">
-          
-          
-          <code class="ruby">    respond_to do |format|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="30">
           
           
-          <code class="ruby">      if @chore.save</code>
+          <code class="ruby">    respond_to do |format|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="31">
           
           
-          <code class="ruby">        format.html { redirect_to @chore, notice: &#39;Chore was successfully created.&#39; }</code>
+          <code class="ruby">      if @chore.save</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="32">
           
           
-          <code class="ruby">        format.json { render action: &#39;show&#39;, status: :created, location: @chore }</code>
+          <code class="ruby">        format.html { redirect_to @chore, notice: &#39;Chore was successfully created.&#39; }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="33">
           
           
-          <code class="ruby">      else</code>
+          <code class="ruby">        format.json { render action: &#39;show&#39;, status: :created, location: @chore }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="34">
           
           
-          <code class="ruby">        format.html { render action: &#39;new&#39; }</code>
+          <code class="ruby">      else</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="35">
           
           
-          <code class="ruby">        format.json { render json: @chore.errors, status: :unprocessable_entity }</code>
+          <code class="ruby">        format.html { render action: &#39;new&#39; }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="36">
           
           
-          <code class="ruby">      end</code>
+          <code class="ruby">        format.json { render json: @chore.errors, status: :unprocessable_entity }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="37">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="38">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="39">
+        <li class="missed" data-hits="0" data-linenumber="39">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="40">
           
           
-          <code class="ruby">  # PATCH/PUT /chores/1</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="41">
           
           
-          <code class="ruby">  # PATCH/PUT /chores/1.json</code>
+          <code class="ruby">  # PATCH/PUT /chores/1</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="42">
+        <li class="never" data-hits="" data-linenumber="42">
           
           
-          <code class="ruby">  def update</code>
+          <code class="ruby">  # PATCH/PUT /chores/1.json</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="43">
           
           
-          <code class="ruby">    respond_to do |format|</code>
+          <code class="ruby">  def update</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="44">
           
           
-          <code class="ruby">      if @chore.update(chore_params)</code>
+          <code class="ruby">    respond_to do |format|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="45">
           
           
-          <code class="ruby">        format.html { redirect_to @chore, notice: &#39;Chore was successfully updated.&#39; }</code>
+          <code class="ruby">      if @chore.update(chore_params)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="46">
           
           
-          <code class="ruby">        format.json { head :no_content }</code>
+          <code class="ruby">        format.html { redirect_to @chore, notice: &#39;Chore was successfully updated.&#39; }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="47">
           
           
-          <code class="ruby">      else</code>
+          <code class="ruby">        format.json { head :no_content }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="48">
           
           
-          <code class="ruby">        format.html { render action: &#39;edit&#39; }</code>
+          <code class="ruby">      else</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="49">
           
           
-          <code class="ruby">        format.json { render json: @chore.errors, status: :unprocessable_entity }</code>
+          <code class="ruby">        format.html { render action: &#39;edit&#39; }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="50">
           
           
-          <code class="ruby">      end</code>
+          <code class="ruby">        format.json { render json: @chore.errors, status: :unprocessable_entity }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="51">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      end</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="52">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="53">
+        <li class="missed" data-hits="0" data-linenumber="53">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="54">
           
           
-          <code class="ruby">  # DELETE /chores/1</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="55">
           
           
-          <code class="ruby">  # DELETE /chores/1.json</code>
+          <code class="ruby">  # DELETE /chores/1</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="56">
+        <li class="never" data-hits="" data-linenumber="56">
           
           
-          <code class="ruby">  def destroy</code>
+          <code class="ruby">  # DELETE /chores/1.json</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="57">
           
           
-          <code class="ruby">    @chore.destroy</code>
+          <code class="ruby">  def destroy</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="58">
           
           
-          <code class="ruby">    respond_to do |format|</code>
+          <code class="ruby">    @chore.destroy</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="59">
           
           
-          <code class="ruby">      format.html { redirect_to chores_url }</code>
+          <code class="ruby">    respond_to do |format|</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="60">
           
           
-          <code class="ruby">      format.json { head :no_content }</code>
+          <code class="ruby">      format.html { redirect_to chores_url }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="61">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      format.json { head :no_content }</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="62">
           
           
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="63">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="63">
+        <li class="never" data-hits="" data-linenumber="64">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="64">
+        <li class="missed" data-hits="0" data-linenumber="65">
           
           
           <code class="ruby">  private</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="65">
+        <li class="never" data-hits="" data-linenumber="66">
           
           
           <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="66">
+        <li class="missed" data-hits="0" data-linenumber="67">
           
           
           <code class="ruby">    def set_chore</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="67">
+        <li class="missed" data-hits="0" data-linenumber="68">
           
           
           <code class="ruby">      @chore = Chore.find(params[:id])</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="68">
+        <li class="missed" data-hits="0" data-linenumber="69">
           
           
           <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="69">
-          
-          
-          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="70">
           
           
-          <code class="ruby">    # Never trust parameters from the scary internet, only allow the white list through.</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="71">
+        <li class="never" data-hits="" data-linenumber="71">
           
           
-          <code class="ruby">    def chore_params</code>
+          <code class="ruby">    # Never trust parameters from the scary internet, only allow the white list through.</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="72">
           
           
-          <code class="ruby">      params.require(:chore).permit(:child_id, :task_id, :due_on, :completed)</code>
+          <code class="ruby">    def chore_params</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="73">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      params.require(:chore).permit(:child_id, :task_id, :due_on, :completed)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="74">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="75">
           
           
           <code class="ruby">end</code>
@@ -1556,7 +1562,7 @@
         <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    @tasks = Task.all</code>
+          <code class="ruby">    @tasks = Task.alphabetical.all</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="8">
