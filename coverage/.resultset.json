@@ -34,37 +34,6 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/chore.rb": [
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        null,
-        3,
-        2,
-        1,
-        2,
-        3,
-        2,
-        2,
-        null,
-        1,
-        2,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/child.rb": [
         1,
         null,
@@ -86,9 +55,14 @@
         null,
         null,
         1,
+        6,
+        null,
+        null,
+        null
+      ],
+      "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/application_record.rb": [
         1,
-        null,
-        null,
+        1,
         null
       ],
       "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/task.rb": [
@@ -104,6 +78,32 @@
         null,
         3,
         2,
+        null
+      ],
+      "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/models/chore.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        3,
+        2,
+        1,
+        2,
+        5,
+        2,
+        2,
+        null,
+        1,
+        2,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/EshitaBanerjee/Desktop/lab5-choretracker-starter/app/controllers/application_controller.rb": [
@@ -359,6 +359,6 @@
         0
       ]
     },
-    "timestamp": 1612563412
+    "timestamp": 1612638861
   }
 }
